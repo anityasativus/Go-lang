@@ -25,6 +25,11 @@ fmt.Println(c)
 
 //bool//
 a:=true
+a=false
+
+// a="anitya"//string 
+const p=100
+fmt.Println(p)
 fmt.Println(a)	
 
 }
