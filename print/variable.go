@@ -29,6 +29,7 @@ a=false
 
 // a="anitya"//string 
 const p=100
+
 fmt.Println(p)
 fmt.Println(a)	
 fmt.Println(a)
