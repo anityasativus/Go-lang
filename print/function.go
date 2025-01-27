@@ -3,5 +3,11 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Println("function ")
+
+	a:=10
+	b:=20
+
+	sum :=a+b
+
+	fmt.Println(sum)
 }
