@@ -8,16 +8,24 @@ func add(num1 int ,num2 int ) int { //num=10,num2=20
 
 	return sum 
 }
+
 func getnumbers(num1 int ,num2 int)(int , int){
-	sum := num1+num2
+	
+	sum := num1+num2//ans30
+	
+	mul:=num1*num2//ans200
+	
+	return sum,mul 
 }
+
 func main(){
 
 	a:=10
-	b:=20
+	b:=20 
 
-	sum := add(a,b)
+	p, q := getnumbers(a,b) //p is sum N q is mul 
 
-	fmt.Println(sum)
+	fmt.Println(p)
 
+    fmt.Println(q)
 }
