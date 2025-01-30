@@ -17,10 +17,6 @@ func getnumbers(num1 int ,num2 int)(int , int){
 	
 	return sum,mul 
 }
-func printSomething(){
-	fmt.Println("Education must be free!")
-	
-}
 
 func main(){
 
