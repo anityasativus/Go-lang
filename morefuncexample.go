@@ -23,7 +23,7 @@ func printSomething(){
 	
 }
 func sayHello(name string){
-	fmt.Println("Welcome")
+	fmt.Println("Welcome",name)
 }
 func main(){
 
