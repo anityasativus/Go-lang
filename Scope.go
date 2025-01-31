@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"archive/zip"
+	"fmt"
+)
 
 var a = 20
 var b = 30
@@ -17,5 +20,6 @@ func main() {
 	add(a, b)
 
 	add(a, p)
+  add(a,z)
 
 }
