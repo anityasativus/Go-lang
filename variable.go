@@ -2,37 +2,36 @@ package main
 
 import "fmt"
 
-func main(){
-	
-	 /*
+func main() {
 
-	a:=10
-	fmt.Println(a)
+	/*
+
+		a:=10
+		fmt.Println(a)
 
 	*/
 
-	//variable// 
-var an int =19
-Z:=20.32
+	//variable//
+	var an int = 19
+	Z := 20.32
 
-fmt.Print(an)
-fmt.Print(Z)
+	fmt.Print(an)
+	fmt.Print(Z)
 
+	//string//
+	c := "hello world"
+	fmt.Println(c)
 
-//string//
-c:="hello world"
-fmt.Println(c)
+	//bool//
+	a := true
+	a = false
 
-//bool//
-a:=true
-a=false
+	// a="anitya"//string
 
-// a="anitya"//string 
+	const p = 100
 
-const p=100
+	fmt.Println(p)
 
-fmt.Println(p)
-
-fmt.Println(a)	
-fmt.Println(a)
+	fmt.Println(a)
+	fmt.Println(a)
 }

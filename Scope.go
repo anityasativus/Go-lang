@@ -10,12 +10,12 @@ func add(x int, y int) {
 	fmt.Println(z)
 }
 func main() {
-	p:= 30
-	q:= 40
-	add(p,q)
+	p := 30
+	q := 40
+	add(p, q)
 
-	add(a,b)
-	
-	add(a,p)
-	
+	add(a, b)
+
+	add(a, p)
+
 }
