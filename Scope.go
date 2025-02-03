@@ -20,6 +20,7 @@ func main() {
 	add(a, b)
 
 	add(a, p)
-	add(a, q) add(a, b)
+	add(a, q) 
+	add(a, b)
 
 }
