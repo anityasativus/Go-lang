@@ -14,7 +14,7 @@ func getnumbers(num1 int ,num2 int)(int , int){
 	sum := num1+num2//ans30
 	
 	mul:=num1*num2//ans200
-	
+	mul:=num1*num1//ans
 	return sum,mul 
 }
 
