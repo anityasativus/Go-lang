@@ -15,7 +15,7 @@ func getnumbers(num1 int, num2 int) (int, int) {
 
 	mul := num1 * num2 //ans200
 
-	return mul ,sum
+	return mul , sum
 }
 
 func main() {
