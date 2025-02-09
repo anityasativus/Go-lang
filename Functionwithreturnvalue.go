@@ -20,7 +20,7 @@ func getnumbers(num1 int, num2 int) (int, int) {
 
 func main() {
 
-	a := 10
+	a :=  10
 	b := 20
 	b := 200
 	p, q := getnumbers(a, b) //p is sum N q is mul
