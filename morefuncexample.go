@@ -11,9 +11,9 @@ func add(num1 int ,num2 int ) int { //num=10,num2=20
 
 func getnumbers(num1 int ,num2 int)(int , int){
 	
-	sum := num1+num2//ans30
+	sum := num1+num2// ans30
 	
-	mul:=num1*num2//ans200
+	mul:= num1*num2// ans200
 	
 
 	return sum,mul 
