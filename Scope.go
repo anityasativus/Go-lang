@@ -1,12 +1,11 @@
 package main
 
-import (
-	"archive/zip"
-	"fmt"
-)
+import "fmt"
 
-var a = 20
-var b = 30
+var(
+	 a = 20
+      b = 30
+)
 
 func add(x int, y int) {
 	z := x + y
