@@ -1,7 +1,23 @@
 package main
 
-import "fmt"
+import { 
+	"fmt" 
+"example.com/mathlb"
+}
+
+var (
+	a = 20
+	b = 30
+)
+
+/*
+
+
+ */
 
 func main() {
-	fmt.Println("hello_word")
+
+	fmt.Println("Showing Custom Package")
+	mathlb.Add(4, 7)
+
 }
