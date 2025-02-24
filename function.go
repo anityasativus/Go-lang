@@ -12,6 +12,6 @@ func main() {
 	a :=   10
 	b :=  20
 
-	add(a, b)
-	add(3, 3)
+	add(a,b)
+	add(3,3)
 }
