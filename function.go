@@ -13,5 +13,5 @@ func main() {
 	b :=  20
 
 	add(a,b)
-	add(3,3)
+	add(3, 3)
 }
