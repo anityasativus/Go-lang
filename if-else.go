@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	age :=2
+	age:=2
 	if age>18 {
         fmt.Println("You are eligible to be married.")
     } else if age<18 {
