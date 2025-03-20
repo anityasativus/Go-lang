@@ -23,7 +23,7 @@ func main() {
 	a := 10
 	b := 20
 	b := 200
-	p, q := getnumbers( a, b) //p is sum N q is mul
+	p , q := getnumbers( a, b) //p is sum N q is mul
 
 	fmt.Println( p )
 
